@@ -1,0 +1,60 @@
+body {background: #090909}
+
+@font-face {font-family: Variete Navidad; src: url('https://dl.dropbox.com/s/nek8engar02o09p/Christmas1.otf'); format('opentype');}
+
+.vari-navidi {width: 600px; background: #fff;display: inline-block;}
+.vari-navidi .navidi-fon1 {
+  width: 600px;
+  height: 300px;
+  background-image: url(https://i.imgur.com/d7qnxk0.png);
+  background-size: cover;
+  position: relative;
+}
+.vari-navidi .navidi-fon1 h1 {
+  font: 90px Variete Navidad;
+  color: #D92626;
+  position: absolute;
+  left: 5px;
+  top: -10px;
+  transform: rotate(-10deg)
+}
+.vari-navidi .navidi-fon1 .navidi-campanas {
+  width: 100px;
+  height: 100px;
+  background-image: url(https://i.imgur.com/SWaWi9p.png);
+  background-size: cover;
+  position: absolute;
+  left: 40px;
+  top: 140px;
+  animation: Rock 2s infinite;
+}
+@keyframes Rock {0% {transform: rotate(-15deg)} 50% {transform: rotate(15deg)} 100% {transform: rotate(-15deg)}}
+
+/*CONTENIDO*/
+.vari-navidi .navidi-contenido {
+  font: 10px Arial;
+  text-align: justify;
+  color: #090909;
+  padding: 30px;
+  line-height: 14px;
+}
+.vari-navidi .navidi-santita {
+  background-image: url(https://i.imgur.com/6z0Y5bN.png);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  float: left;
+  margin-right: 10px
+}
+.vari-navidi .navidi-subtitulo {
+  font: 30px Variete Navidad;
+  color: #D92626;
+}
+.vari-navidi .navidi-contenido ka {
+  background: #62A54A;
+  color: #ffffff;
+  padding: 2px 4px;
+}
+
+/*CALENDARIO*/
+.adviento {background: #f7f7f7; width: 800px; height: 800px; margin: auto; position: relative; outline: 10px solid #BDB964; outline-offset: 10px; margin-top: 25px; font-family: Montserrat;} .calendario {line-height:70px; font-weight: 700; text-transform: uppercase; font-size: 50px; text-align: center; letter-spacing: 5px; color: #D55C5A;} .dede { font-size: 25px; position: absolute; left: 50%; width: 300px; margin-left: -150px; color: #BDB964; letter-spacing: 3px; top: 65px; border-bottom: 2px solid #D55C5A; line-height: 30px; } .imadviento { height: 100px; width: 100px; position: absolute; top: 0; right: 50px; margin: 5px; background-size: cover;} .numbers {background: #eee; height: 640px; width: 800px; bottom: 0; position: absolute; border-top: 40px solid #ddd;} .diauno {height: 148px; width: 148px; background: #ddd; position: relative; float: left; margin: 10px 0 0 10px;} .unonosiempre {position: absolute; top: 0px; left: 5px; font-weight: 800; color: #D55C5A; font-size: 40px; line-height:40px;} .dimequees {position: absolute; bottom: 0; left: 0; width: 148px; height: 90px; text-align: center; text-transform: uppercase; font-weight: 700; letter-spacing: .5px; color: #555; padding-top: 10px; } .premios {position: absolute; font-weight: 700; text-transform:uppercase; font-size: 10px; right: 12px; top: 12px; color: #BDB964; border-bottom: 2px solid #BDB964;}
